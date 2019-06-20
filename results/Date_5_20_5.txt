@@ -1,0 +1,26 @@
+[
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "66543d52-3088-43a2-b41a-59db14e149b0",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        }
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "bd865117-5f5d-4f91-8a3e-4e65bee77ee7",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        }
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "084a678d-028d-4064-9a91-5d7bac612a83",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        }
+    }
+]
