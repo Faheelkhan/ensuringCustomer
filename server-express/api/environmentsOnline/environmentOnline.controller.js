@@ -16,7 +16,11 @@ exports.getResponce = (req, res) => {
     environmentOnlineService.getResponce()
         .then((responce) => {
             if (responce) {
-                res.status(200).json(responce);
+                if (res) {
+                    res.status(200).json(responce);
+                } else{
+                    environmentOnlineService.saviingToFile(responce);
+                }
             } else {
                 ServiceManager.errorHandler.serverError404(res, err);
             }

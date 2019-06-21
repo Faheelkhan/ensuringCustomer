@@ -25,7 +25,6 @@ exports.getResponce = () => {
                 let isWorking = await axios.post('https://gateway-listener-local.avizia.com:3443/v1/endpoint/fhir', listOfCustomers[numberOfCustomers] ,{headers: getResponceHeader()})
                 listOfResults.push(isWorking.data);
             }
-            await saviingToFile(listOfResults)
             return resolve(listOfResults);
         } catch (error) {
             reject(error)
@@ -69,11 +68,11 @@ function editCustomerIds (payload) {
         return editableJson
     }
 }
-
-async function saviingToFile (results) {
+let counter = 0
+exports.saviingToFile = (results) => {
     var dateFormation = new Date().getMonth() + '_' + new Date().getDate() +'_' + new Date().getMonth()
 
-    fs.writeFile('./results/Date_' + dateFormation + '.txt', JSON.stringify(results, null, 4), (err) => {
+    fs.writeFile('./results/Date_' + dateFormation + counter+1 + '.txt', JSON.stringify(results, null, 4), (err) => {
         if (err) {
             console.error(err);
             return;
