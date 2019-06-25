@@ -1,0 +1,4122 @@
+[
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "b3ca4b32-7b27-49f4-a245-5b3b5eeca008",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 2,
+            "name": "Dr Chrono EMR",
+            "type": "emr",
+            "key": "drchrono",
+            "destinationCode": null,
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:06.553Z",
+            "updatedAt": "2019-05-20T12:53:06.553Z"
+        },
+        "Date": "2019-06-25T09:35:00.060Z"
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "ad896dcb-cf42-49b6-a0ca-d128a2430007",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 3,
+            "name": "Athena EMR",
+            "type": "emr",
+            "key": "athena",
+            "destinationCode": "es_athena",
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:06.553Z",
+            "updatedAt": "2019-05-20T12:53:06.553Z"
+        },
+        "Date": "2019-06-25T09:35:00.078Z"
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "39df7f7f-7292-4768-a23a-1afee0be008f",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 4,
+            "name": "fairview EMR",
+            "type": "emr",
+            "key": "fairview",
+            "destinationCode": "cc9b0da7-66f3-4d48-8fba-8ae2c3d080e6",
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:06.553Z",
+            "updatedAt": "2019-05-20T12:53:06.553Z"
+        },
+        "Date": "2019-06-25T09:35:00.096Z"
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "a257e146-31f9-4f4d-9772-8e79ae0654e6",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 1000,
+            "name": "Northwell EMR",
+            "type": "emr",
+            "key": "northwell",
+            "destinationCode": "5ed38bda-b051-4e84-b62d-2fe0dd198e51",
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:07.875Z",
+            "updatedAt": "2019-06-24T05:56:58.511Z"
+        },
+        "Date": "2019-06-25T09:35:00.132Z"
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "39ae9edc-6d74-434b-8d48-17f750c93599",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 2,
+            "name": "Dr Chrono EMR",
+            "type": "emr",
+            "key": "drchrono",
+            "destinationCode": null,
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:06.553Z",
+            "updatedAt": "2019-05-20T12:53:06.553Z"
+        },
+        "Date": "2019-06-25T09:36:00.026Z"
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "1c48c7cf-43a4-4840-8e8c-427fbfb220c8",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 3,
+            "name": "Athena EMR",
+            "type": "emr",
+            "key": "athena",
+            "destinationCode": "es_athena",
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:06.553Z",
+            "updatedAt": "2019-05-20T12:53:06.553Z"
+        },
+        "Date": "2019-06-25T09:36:00.042Z"
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "43b330ce-d6ab-4003-853a-f5b296c543bb",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 4,
+            "name": "fairview EMR",
+            "type": "emr",
+            "key": "fairview",
+            "destinationCode": "cc9b0da7-66f3-4d48-8fba-8ae2c3d080e6",
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:06.553Z",
+            "updatedAt": "2019-05-20T12:53:06.553Z"
+        },
+        "Date": "2019-06-25T09:36:00.059Z"
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "8c947405-9650-4b9a-b717-3d1ed2d939dc",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 1000,
+            "name": "Northwell EMR",
+            "type": "emr",
+            "key": "northwell",
+            "destinationCode": "5ed38bda-b051-4e84-b62d-2fe0dd198e51",
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:07.875Z",
+            "updatedAt": "2019-06-24T05:56:58.511Z"
+        },
+        "Date": "2019-06-25T09:36:00.088Z"
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "49823dc4-f5aa-4914-a343-4231ef9335e3",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 2,
+            "name": "Dr Chrono EMR",
+            "type": "emr",
+            "key": "drchrono",
+            "destinationCode": null,
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:06.553Z",
+            "updatedAt": "2019-05-20T12:53:06.553Z"
+        },
+        "Date": "2019-06-25T09:37:00.036Z"
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "b18c45ed-eb7a-4ec5-bf86-ab70bf7814af",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 3,
+            "name": "Athena EMR",
+            "type": "emr",
+            "key": "athena",
+            "destinationCode": "es_athena",
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:06.553Z",
+            "updatedAt": "2019-05-20T12:53:06.553Z"
+        },
+        "Date": "2019-06-25T09:37:00.061Z"
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "3c24e4de-9463-428b-9675-31da2e9c5071",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 4,
+            "name": "fairview EMR",
+            "type": "emr",
+            "key": "fairview",
+            "destinationCode": "cc9b0da7-66f3-4d48-8fba-8ae2c3d080e6",
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:06.553Z",
+            "updatedAt": "2019-05-20T12:53:06.553Z"
+        },
+        "Date": "2019-06-25T09:37:00.080Z"
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "d952a7cb-90d1-4a8c-85e0-115d9bd655dd",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 1000,
+            "name": "Northwell EMR",
+            "type": "emr",
+            "key": "northwell",
+            "destinationCode": "5ed38bda-b051-4e84-b62d-2fe0dd198e51",
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:07.875Z",
+            "updatedAt": "2019-06-24T05:56:58.511Z"
+        },
+        "Date": "2019-06-25T09:37:00.115Z"
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "da8d67c5-3a43-4e1f-92f1-ead8bbbaa14c",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 2,
+            "name": "Dr Chrono EMR",
+            "type": "emr",
+            "key": "drchrono",
+            "destinationCode": null,
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:06.553Z",
+            "updatedAt": "2019-05-20T12:53:06.553Z"
+        },
+        "Date": "2019-06-25T09:38:00.032Z"
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "19b916c6-6fa5-4c34-b14e-0ab3e9a93642",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 3,
+            "name": "Athena EMR",
+            "type": "emr",
+            "key": "athena",
+            "destinationCode": "es_athena",
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:06.553Z",
+            "updatedAt": "2019-05-20T12:53:06.553Z"
+        },
+        "Date": "2019-06-25T09:38:00.050Z"
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "302acb9a-dc00-4b9e-9dce-26b4cb11fe21",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 4,
+            "name": "fairview EMR",
+            "type": "emr",
+            "key": "fairview",
+            "destinationCode": "cc9b0da7-66f3-4d48-8fba-8ae2c3d080e6",
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:06.553Z",
+            "updatedAt": "2019-05-20T12:53:06.553Z"
+        },
+        "Date": "2019-06-25T09:38:00.066Z"
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "f4008688-8b93-405a-8606-9aa74e561fb0",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 1000,
+            "name": "Northwell EMR",
+            "type": "emr",
+            "key": "northwell",
+            "destinationCode": "5ed38bda-b051-4e84-b62d-2fe0dd198e51",
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:07.875Z",
+            "updatedAt": "2019-06-24T05:56:58.511Z"
+        },
+        "Date": "2019-06-25T09:38:00.104Z"
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "aeffe659-d1ee-486c-ac3d-17de8413b8fa",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 2,
+            "name": "Dr Chrono EMR",
+            "type": "emr",
+            "key": "drchrono",
+            "destinationCode": null,
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:06.553Z",
+            "updatedAt": "2019-05-20T12:53:06.553Z"
+        },
+        "Date": "2019-06-25T09:39:00.033Z"
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "713a1a76-4a07-4ae5-946c-c5352f3f7159",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 3,
+            "name": "Athena EMR",
+            "type": "emr",
+            "key": "athena",
+            "destinationCode": "es_athena",
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:06.553Z",
+            "updatedAt": "2019-05-20T12:53:06.553Z"
+        },
+        "Date": "2019-06-25T09:39:00.051Z"
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "a8110eb8-03a3-4c64-91fc-14c533405604",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 4,
+            "name": "fairview EMR",
+            "type": "emr",
+            "key": "fairview",
+            "destinationCode": "cc9b0da7-66f3-4d48-8fba-8ae2c3d080e6",
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:06.553Z",
+            "updatedAt": "2019-05-20T12:53:06.553Z"
+        },
+        "Date": "2019-06-25T09:39:00.068Z"
+    },
+    {
+        "success": true,
+        "messageIds": {
+            "requestId": "df4da48b-9269-4b68-a26f-7b118c8ca0de",
+            "externalMessageId": 114021258,
+            "externalTransmissionId": 54780483
+        },
+        "Meta": {
+            "DataModel": "Scheduling",
+            "EventType": "New",
+            "EventDateTime": "2017-07-14T21:31:00.000Z",
+            "Test": true,
+            "Source": {
+                "ID": "d503dbcf-35c8-42da-96fd-83017b0e7566",
+                "Name": "Athena Avizia HL7 Staging (s)"
+            },
+            "Destinations": [
+                {
+                    "ID": "a4a541e0-bd64-454a-81b6-aa4bccf31c19",
+                    "Name": "Avizia - Blackwell"
+                }
+            ],
+            "Message": {
+                "ID": 114021258
+            },
+            "Transmission": {
+                "ID": 54780483
+            },
+            "FacilityCode": 1959282
+        },
+        "Patient": {
+            "Identifiers": [
+                {
+                    "ID": "4822",
+                    "IDType": "AthenaNet Enterprise ID"
+                },
+                {
+                    "IDType": "REDOX-athenahealth-154",
+                    "ID": "4dc94479-2a19-42c6-baa8-ca5ddce52fd1"
+                }
+            ],
+            "Demographics": {
+                "FirstName": "JORAH",
+                "MiddleName": "P",
+                "LastName": "MORMONT",
+                "DOB": "1950-01-06",
+                "SSN": "101-01-0001",
+                "Sex": "Male",
+                "Race": "Patient Declined",
+                "IsHispanic": null,
+                "MaritalStatus": "Single",
+                "IsDeceased": null,
+                "DeathDateTime": null,
+                "PhoneNumber": {
+                    "Home": "+16085714049",
+                    "Office": null,
+                    "Mobile": null
+                },
+                "EmailAddresses": [
+                    "test@test.gmail.com"
+                ],
+                "Language": null,
+                "Citizenship": [],
+                "Address": {
+                    "StreetAddress": "4762 HICKORY STREET",
+                    "City": "MONROE",
+                    "State": "WI",
+                    "ZIP": "53566",
+                    "County": null,
+                    "Country": "UNITED STATES"
+                }
+            },
+            "Notes": []
+        },
+        "AppointmentInfo": [],
+        "Visit": {
+            "VisitNumber": "787377",
+            "VisitDateTime": "2017-07-14T20:15:00.000Z",
+            "PatientClass": "Outpatient",
+            "Status": "Scheduled",
+            "Duration": "15",
+            "Reason": "test",
+            "Instructions": [],
+            "AttendingProvider": {
+                "ID": "108P1959138",
+                "IDType": null,
+                "FirstName": "JONAS",
+                "LastName": "SALK",
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ConsultingProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "ReferringProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "VisitProvider": {
+                "ID": null,
+                "IDType": null,
+                "FirstName": null,
+                "LastName": null,
+                "Credentials": [],
+                "Address": {
+                    "StreetAddress": null,
+                    "City": null,
+                    "State": null,
+                    "ZIP": null,
+                    "County": null,
+                    "Country": null
+                },
+                "Location": {
+                    "Type": null,
+                    "Facility": null,
+                    "Department": null,
+                    "Room": null
+                },
+                "PhoneNumber": {
+                    "Office": null
+                }
+            },
+            "Location": {
+                "Type": null,
+                "Facility": "7 Hills Department",
+                "Department": "150",
+                "Room": "7 Hills Department"
+            },
+            "Diagnoses": [
+                {
+                    "Code": null,
+                    "Codeset": null,
+                    "Name": null,
+                    "Type": null
+                }
+            ]
+        },
+        "CustomerDetails": {
+            "id": 1000,
+            "name": "Northwell EMR",
+            "type": "emr",
+            "key": "northwell",
+            "destinationCode": "5ed38bda-b051-4e84-b62d-2fe0dd198e51",
+            "authparams": null,
+            "createdAt": "2019-05-20T12:53:07.875Z",
+            "updatedAt": "2019-06-24T05:56:58.511Z"
+        },
+        "Date": "2019-06-25T09:39:00.100Z"
+    }
+]

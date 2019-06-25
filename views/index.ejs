@@ -1,0 +1,106 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ./partials/head %>
+</head>
+<body class="container">
+
+<header>
+    <% include ./partials/header %>
+</header>
+
+<main>
+    <div class="jumbotron">
+        <h1>This is great</h1>
+        <p>Welcome to templating using EJS</p>
+        <button class="btn btn-primary" value="<%= JSON.stringify(data)%>" id="brandName" onclick="multiple(this.value);">
+          get Reports 
+         </button
+    </div>
+</main>
+<!-- <div>
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Collapsible Group Item #2
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Collapsible Group Item #3
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+      </div>
+</div> -->
+<div>
+  <!-- <%= data ? JSON.stringify(data) : "NOT FOUND" %> -->
+  <% for(var i=0; i < data.length; i++) { %>
+  <table class="table">
+<h2>Date 6th Sepember</h2>
+    <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Responce</th>
+            <th scope="col">Clinet Name</th>
+          </tr>
+        </thead>
+        <tbody>
+
+
+                      <% for(var j=0; j < data[i].length; j++) { %>
+                        <tr>
+                          <th scope="row"><%= j+1 %></th>
+                          <td>
+                              <%= data[i][j].success %>
+                          </td>
+                          <td>
+                              <%= data[i][j].CustomerDetails.name %>
+                          </td>
+                          <td>
+                              <%= data[i][j].messageIds.requestId %>
+                          </td>
+                      </tr>
+                      <span class="divider"></span>
+                        <% } %>
+
+
+      </tbody>
+    </table>
+    <% } %>
+</div>
+
+<footer>
+    <% include ./partials/footer %>
+</footer>
+
+<script>
+  var path = require('../results')
+ function multiple(data) {
+   debugger 
+  console.log(data);
+  }
+
+  console.log(data);
+</script>
+</body>
+</html>

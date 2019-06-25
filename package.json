@@ -20,7 +20,9 @@
     "koa-router": "^7.3.0",
     "mongoose": "^4.13.7",
     "mongoose-deep-populate": "^3.0.0",
-    "nodemon": "^1.18.3"
+    "node-cron": "^2.0.3",
+    "nodemon": "^1.18.3",
+    "ejs": "^1.0.0"
   },
   "devDependencies": {
     "eslint-config-airbnb-base": "^12.1.0",
